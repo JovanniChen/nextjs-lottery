@@ -105,9 +105,7 @@ export default function LotteryEntrace() {
                         Entrance Fee:
                         {ethers.utils.formatUnits(entranceFee, "ether")} ETH
                     </div>
-                    <div>
-                        The current number of players is: : {numOfPlayers}
-                    </div>
+                    <div>The current number of players is: {numOfPlayers}</div>
                     <div>The most previous winner was: {recentWinner}</div>
                 </div>
             ) : (
